@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssAnimations</title>
+    <style>
+        *{
+            margin: 1px;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: aquamarine;
+            border: 5px solid green;
+        
+        }
+        #box1{
+            height: 50px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: blueviolet;
+            margin: 10px;
+            position: relative;
+            animation: rightMove;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+        #box1{
+            height: 50px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: blueviolet;
+            margin: 10px;
+            position: relative;
+            animation: rightMove;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+        #box2{
+            height: 50px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: blueviolet;
+            margin: 10px;
+            position: relative;
+            animation: rightMove;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: ease;
+            animation-direction: alternate;
+        }
+        #box3{
+            height: 50px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: blueviolet;
+            margin: 10px;
+            position: relative;
+            animation: rightMove;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: ease-out;
+            animation-direction: alternate;
+        }
+        #box4{
+            height: 50px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: blueviolet;
+            margin: 10px;
+            position: relative;
+            animation: rightMove;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            animation-direction: alternate;
+        }
+        @keyframes rightMove {
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 1800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box1" id="box1"></div>
+        <div class="box1" id="box2"></div>
+        <div class="box1" id="box3"></div>
+        <div class="box1" id="box4"></div>
+    </div>
+</body>
+</html>

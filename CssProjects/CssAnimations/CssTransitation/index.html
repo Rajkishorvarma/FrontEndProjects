@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssTrans</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 500px;
+            background-color: chartreuse;
+            border: 5px solid red;
+            border-radius: 25px;
+
+            /* transition-property: all;
+            transition-duration: 5s;
+            transition-delay: 0.5s;
+            transition-timing-function: ease-out; */
+
+            transition: all 0s ease-in-out 1s;
+        }
+        .box:hover{
+            width: 1800px;
+            height: 900px;
+            background-color: rgb(53, 100, 5);
+             border: 5px solid red;
+            border-radius: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

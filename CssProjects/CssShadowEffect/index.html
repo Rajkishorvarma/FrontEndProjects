@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssShadow</title>
+    <style>
+        :root{
+            --p-color: aquamarine;
+            --b-color: green;
+
+        }
+        .container{
+            background-color: var(--p-color);
+            border: 2px solid red;
+            height: 950px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: inset 10px 20px 60px var(--b-color);
+        }
+        .box{
+            background-color:var(--p-color);
+            border: 2px solid black;
+            height: 500px;
+            width: 500px;
+            margin: 5px;
+            padding: 5px;
+            /* box-shadow: 30px 23px gray; */
+            /* box-shadow: 30px 30px 75px gray; */
+            /* box-shadow: 30px 30px 100px 50px gray; */
+            /* box-shadow: inset 10px 20px 60px green; */
+            box-shadow: 20px 20px 50px black, 50px 50px 20px var(--b-color);
+        }
+        #heading{
+            font-size: 45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: blue;
+            text-shadow: 5px 2px gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img4.jpg" height="150px" width="500px" alt="img4">
+            <h1 id="heading">Welcome to Web World</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta rem dignissimos cum, doloremque est repudiandae nam dolorem, temporibus quam enim iusto.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFlex</title>
+    <style>
+        .container{
+            background-color: blueviolet;
+            border: 2px solid red;
+            width: 700px;
+            display: flex;
+            flex-direction: row;
+        }
+        #boxLeft{
+            background-color: chartreuse;
+            border: 1px solid blue;
+            width: 47%;
+            margin: 3px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+        #boxRight{
+            background-color: darkturquoise;
+            border: 1px solid black;
+            width: 53%;
+            margin: 3px;
+            padding: 2px;
+        }
+        p{
+            border: 1px solid green;
+        }
+        @media(max-width:700px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxLeft">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, maxime!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, delectus!</p>
+        </div>
+        <div id="boxRight">
+            <img src="imgTr1.png" alt="images" height="200px" width="300px">
+        </div>
+    </div>
+</body>
+</html>

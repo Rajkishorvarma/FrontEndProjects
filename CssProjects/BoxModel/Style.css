@@ -1,0 +1,35 @@
+#h11{
+    color: cadetblue;
+    font-size: 50px;
+    font-family:cursive;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 3px;
+}
+#span{
+    color: blue;
+    font-size: 25px;
+}
+.firstClass{
+    background-color: coral;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 3px;
+}
+.secondClass{
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 3px;
+}
+.thirdClass{
+    background-color: green;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 3px;
+}
