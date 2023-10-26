@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 97vw;
+    max-width: 85vw;
     padding: 2rem 1rem;
     margin: auto;
     /* background-color: gray; */
@@ -38,24 +38,37 @@ a{
     gap: 1.5rem; 
     grid-template-columns: repeat(3,1fr);  
 }
+@media(max-width:1000px){
+    .contMain{
+        display: grid;
+        gap: 2rem; 
+        grid-template-columns: repeat(2,1fr);  
+    }
+}
+@media(max-width:630px){
+    .contMain{
+        display: grid;
+        gap: 2rem; 
+        grid-template-columns: repeat(1,1fr);  
+    }
+}
 
 .cardContainer{
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(110, 108, 108);
-    /* border-radius: 10px; */
+    border-radius: 10px;
+    overflow: hidden;
 }
 .cardImgCont{
     position: relative;
     overflow: hidden;
-    height: 25rem;
-
+    height: 15rem;
 }
+
 .Card_img{
     object-fit: cover;
     object-position: center;
-    /* border-top-right-radius: 9.1px;
-    border-top-left-radius: 9.1px; */
     position: absolute;
     height: 100%;
     width: 100%;
@@ -86,7 +99,8 @@ a{
 .cardFooter{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    align-items: flex-end;
+    padding: 1.5rem;
 }
 .cardAuthor{
     display: flex;
@@ -104,6 +118,24 @@ a{
 
 .authoInfo{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+}
+#authName{
+    color: rgb(34, 34, 194);
+    font-size: 18px;
+    font-weight: 900;
+}
+#authDate{
+    color: rgb(116, 115, 115);
+    font-size: 15px;
+}
 
+.cardTag{
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+    border: 1px solid rgb(128, 122, 122);
+    border-radius: 3px;
+    line-height: 1.3rem;
+    padding: 0.5rem 0.5rem;
+    align-items: center;
 }
