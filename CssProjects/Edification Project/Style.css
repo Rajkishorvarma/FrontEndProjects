@@ -24,6 +24,8 @@ body{
     background-color: var(--background-color);
     padding: 1rem;
 }
+
+/* header section Css Start here */
 .header-contant{
     max-width: 1280px;
     display: flex;
@@ -108,3 +110,7 @@ body{
     height: 2rem;
     width: 2rem;
 }
+/* header section Css Ends here */
+ /* Contant section Css Start here */
+ 
+  /* Contant section Css Start here */
