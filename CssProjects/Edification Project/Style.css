@@ -112,5 +112,16 @@ body{
 }
 /* header section Css Ends here */
  /* Contant section Css Start here */
- 
+
+
+
+ .contant-right{
+
+ }
+ .section-image{
+    height: 400px;
+    width: 550px;
+    border: none;
+    border-radius: 50px;
+ }
   /* Contant section Css Start here */
