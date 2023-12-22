@@ -137,7 +137,7 @@ body{
     }
 }
 .section-label{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--primary-color);
 }
@@ -184,10 +184,15 @@ body{
     align-items: center;
     justify-content: center;
  }
- .section-image{
-    height: 400px;
-    width: 550px;
+ .img-container{
     border-radius: 50px;
     overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0,0,0,1);
+    height: 57vh;
+ }
+ .section-image{
+    height: 100%;
+    width: 100%;
+   
  }
   /* Contant section Css Start here */
