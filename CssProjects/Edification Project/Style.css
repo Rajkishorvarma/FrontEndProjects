@@ -186,14 +186,51 @@ body{
  }
  .img-container{
     border: none;
-    border-radius: 50px;
+    border-radius: 40px;
     overflow: hidden;
     box-shadow: 0px 4px 8px rgba(0,0,0,1);
-    height: 57vh;
+    height: 40vh;
  }
  .section-image{
     height: 100%;
     width: 100%;
    
+ }
+
+ @media screen and (min-width: 810px) {
+    .main-section{
+        flex-direction: row;
+        margin: 4rem;
+        padding-top: 2rem;
+        gap: 2rem;
+    }
+    .contant-left{
+        max-width: 50%;
+        text-align: left;
+    }
+    .section-label{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .section-title{
+      padding: 0px; 
+      font-size: 3.2rem; 
+    }
+    .section-description{
+        font-size: 1rem;
+        color: var(--gray);
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        width: 88%;
+    }
+    .button-group{
+        justify-content: start;
+        padding-left: 0;
+    }
+    .img-container{
+        height: 60vh;
+        border-radius: 30px;
+
+    }
  }
   /* Contant section Css Start here */
