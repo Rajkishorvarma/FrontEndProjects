@@ -235,6 +235,57 @@ body{
  }
   /* Contant section Css Start here */
   /* Contant bottom section starts here */
-  
+  .company-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    animation: slideFromLeft 1s ease forwards;
+
+  }
+  .c-title{
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  .company-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    padding: 1rem;
+    background-color: var(--light-gray);
+    border: none;
+    border-radius: 0.625rem;
+    margin-top: 1rem;
+  }
+  .company-logo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+    display: flex;
+    gap: 0.5rem;
+  }
+  .svgImg{
+    height: 1.5rem;
+  }
+  .logo-texts{
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 565px){
+    .c-title{
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    .company-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        padding: 1rem;
+        background-color: var(--light-gray);
+        border: none;
+        border-radius: 0.625rem;
+        margin-top: 1rem;
+    }
+  }
   /* Contant bottom section ends here */
 
