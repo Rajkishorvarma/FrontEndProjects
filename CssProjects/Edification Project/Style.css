@@ -299,9 +299,9 @@ body{
 }
 
 .feature-content{
-   max-width: 800px;
+   max-width: 1000px;
    margin: 0 auto;
-   padding: 0 2rem; 
+   padding: 0 1rem; 
 }
 .main-info{
     display: flex;
@@ -316,8 +316,42 @@ body{
     font-size: 1rem;
     color: var(--gray);
 }
+.feature-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    margin: 1.5rem;
+}
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e6b6b;
+
+}
+.icon-container{
+    background-color: var(--background-color);
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feature-pngs{
+    width: 2rem;
+    height: 2rem;
+}
+.feature-title{
+    color: white;
+}
+.feature-desc{
+    color: white;
+}
 
 
 
-/* card styling starts here */
+/* card styling ends here */
 
