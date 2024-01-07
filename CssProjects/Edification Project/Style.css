@@ -387,5 +387,29 @@ body{
     background-color: #004b5e;
 }
 
+@media screen and (max-width: 810px){
+    .feature-grid{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 1.5rem;
+    }
+}
+@media screen and (max-width: 670px){
+    .feature-grid{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(1,1fr);
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 445px){
+    .feature-grid{
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0.2rem;
+    }
+}
 /* card styling ends here */
 
